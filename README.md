@@ -74,8 +74,6 @@ This component, also empty, must have all the logic and body responsible for the
 
 <img alt="screen2" src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F88f057c2-d29a-4b0d-b9ed-f11385e09030%2Fexample.png?table=block&id=673530e2-c5dc-4813-97f2-37c4dfabc170&width=1340&userId=&cache=v2" />
 
-If you prefer, you can also componentize some other parts of the application, such as the header, but that is not a requirement of this challenge 🚀
-
 # :page_facing_up: License
 
 This project is under a license [MIT](./LICENSE).
