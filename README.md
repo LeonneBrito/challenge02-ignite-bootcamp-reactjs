@@ -1,7 +1,7 @@
 <img alt="Ignite" src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F2fbacb7a-e460-44a3-8fc5-e66f96dae148%2Fcover-reactjs.png?table=block&id=51e4099a-6e2f-4d4b-ae94-f9fe75bb769d&width=5120&userId=1b109781-8635-4162-80d6-714377721793&cache=v2" />
 
 <h3 align="center">
-Challenge 01: Componentizing the application
+Challenge 02: Componentizing the application
 </h3>
 
 <p align="center">	
@@ -31,11 +31,11 @@ The application is already fully functional but a large part of its code is dire
 - The first category on the list (which is "Action") should start as marked;
 - The application header has only the name of the selected category that must change dynamically.
 
-## ::construction_worker: Preparing for the challenge
+## :construction_worker: Preparing for the challenge
 
 For this challenge, in addition to the concepts seen in class, we will use some new things to make our application even better. So, before going directly to the challenge code, we will explain a little bit about Fake API with JSON Server.
 
-# Fake API with JSON Server
+## Fake API with JSON Server
 
 Just as we use MirageJS in module 2 to simulate an API with transaction data from the dt.money application, we will use JSON Server to simulate an API that has the information of genres and films.
 
@@ -50,13 +50,10 @@ Then you will see the message:
 
 <img alt="server" src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F1abc3356-2936-4106-a4fe-a3fc8efd1373%2FUntitled.png?table=block&id=7fe88f6f-62c6-45c7-a898-d1672dbbe6bd&width=1420&userId=&cache=v2" />
 
-
 Note that he started a fake API with the `/genres` and` /movies` resources in `localhost` on port` 3333` from the information in the [server.json] file (https://github.com/rocketseat-education/ignite-template-componentizando-a-aplicacao/blob/main/server.json) located at the root of your project. Accessing these routes in your browser, you can see the return of the information already in JSON:
 
-<div align="center">
-   <img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F12a3c689-264b-4bd4-8515-730dfe8dd407%2FUntitled.png?table=block&id=e27d872a-13a6-4c37-ba61-34b7fb2f74dd&width=850&userId=&cache=v2" />
-   <img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F400b84d4-2de4-4cd3-aef2-139f3103e9f6%2FUntitled.png?table=block&id=c2e1b5cd-c028-45b6-9319-b88aab9b0ece&width=670&userId=&cache=v2" />
-</div>
+<img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F12a3c689-264b-4bd4-8515-730dfe8dd407%2FUntitled.png?table=block&id=e27d872a-13a6-4c37-ba61-34b7fb2f74dd&width=850&userId=&cache=v2" />
+<img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F400b84d4-2de4-4cd3-aef2-139f3103e9f6%2FUntitled.png?table=block&id=c2e1b5cd-c028-45b6-9319-b88aab9b0ece&width=670&userId=&cache=v2" />
 
 That way, you just need to consume these API routes normally with Axios.
 
